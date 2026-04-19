@@ -566,7 +566,17 @@ header .mobile-header {
   line-height: 1.45em;
   margin-top: 8px;
 }
-
+@media (max-width: 1024px) {
+  .service-section .service-wrapper {
+    padding: 60px 0;
+  }
+  .service-section .service-wrapper .service-card-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .service-section .service-wrapper .service-heading {
+    padding: 0;
+  }
+}
 /* End Service Section */
 
 /* Footer */
